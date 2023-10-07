@@ -1,0 +1,72 @@
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+
+var chann = `Berikut ini adalah list Jasa Bot Wa dari *BEEXZY OFFC* ⤵️\n
+
+▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬
+[ *LIST HARGA PANEL* ]
+
+*RAM 1GB CPU 30% 3K/BULAN*
+*RAM 2GB CPU 60% 5K/BULAN*
+*RAM 3GB CPU 85% 10K/BULAN*
+*RAM 4GB CPU 110% 15K/BULAN*
+*RAM 5GB CPU 140% 20K/BULAN*
+*RAM 6GB CPU 160% 25K/BULAN*
+*RAM 7GB CPU 180% 30K/BULAN*
+*RAM UNLIMITED CPU UNLIMITED 35K/BULAN*
+
+*[ KEUNTUNGAN ]*
+*🤖 BISA BUAT RUN BOT NO RIBET*
+*🤖 WEBSITE/APK CLOSE BOT TETAP ON/JALAN*
+*🤖 GA BOROS KUOTA*
+*🤖 GA MENUHIN MEMORI*
+
+*NOTE‼️ :*
+*GARANSI 15 HARI (CLAIM GARANSI WAJIB ADA BUKTI TRX)*
+*BISA NEGO ( YANG WARAS NEGONYA )*
+▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬
+*[ ADMIN PANEL ]*
+
+*HARGA 20K*
+
+*[ KEUNTUNGAN ]*
+*BISA BUAT PANEL SENDIRI*
+*BISA BUAT JUAL PANEL*
+*BISA BALIK MODAL*
+*PERMANENT JADI ADMIN PANEL*
+▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬
+*[ PT PANEL ]*
+
+*HARGA 40K*
+
+*[ KEUNTUNGAN ]*
+*BISA BUAT PANEL SENDIRI*
+*BISA BUAT JUAL PANEL*
+*BISA BALIK MODAL*
+*BISA OPEN ADMIN PANEL*
+*FREE ADD BOT CPANEL*
+*PERMANENT JADI PT PANEL*
+*DAPAT SC CREATE PANEL*
+▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬
+[ *CONTACT ADMIN* ]
+_ADMIN 1 : wa.me/6285850640126_
+_ADMIN 2 : wa.me/62858156148621_
+_TELE : t.me/BEEXZYSKYWEE_
+▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬`
+conn.sendFile(m.chat, pickRandom(rand), 'store.jpg', `${chann}`, m)
+}
+
+handler.help = ['listpanel']
+handler.tags = ['main']
+handler.command = /^(store)$/i
+
+module.exports = handler
+function pickRandom(list) {
+  return list[Math.floor(list.length * Math.random())]
+}
+
+const rand = [
+    "https://telegra.ph/file/8813270910b3db0caf3c5.jpg",
+    "https://telegra.ph/file/f8188362557a0e15dc991.jpg",
+    "https://telegra.ph/file/f27960f15c9fdbadf1248.jpg",
+    "https://telegra.ph/file/195f7f8832fa7c49bfeb9.jpg"
+]
