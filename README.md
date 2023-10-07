@@ -11,8 +11,8 @@
 
 
 ## Join Group Diskusi
-[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GVwpKf83s42D1CnIfDW19G) 
-**NO BOT**
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EFglAMLeHhN1pQ7ASp5LsB) 
+**GRUP CHAT BOT**
 
 
 #### Deploy to Heroku
